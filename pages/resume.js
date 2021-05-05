@@ -1,17 +1,17 @@
 import Head from 'next/head'
 import Layout from '../components/Layout';
-import Carousel from '../components/Carousel';
+import CV from '../components/Resume';
 
-export default function Home() {
+export default function Resume() {
   return (
     <div class="container">
       <Head>
-        <title>Portfolio - Home</title>
+        <title>Portfolio - Resume</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/main.css" />
       </Head>
       <Layout>
-        <Carousel/>
+        <CV/>
       </Layout>
     </div>
   )

@@ -1,17 +1,16 @@
 import Head from 'next/head'
 import Layout from '../components/Layout';
-import Carousel from '../components/Carousel';
 
 export default function Home() {
   return (
     <div class="container">
       <Head>
-        <title>Portfolio - Home</title>
+        <title>Portfolio - Contact</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/main.css" />
       </Head>
       <Layout>
-        <Carousel/>
+        <p>Contact</p>
       </Layout>
     </div>
   )
